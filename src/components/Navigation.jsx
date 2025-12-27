@@ -11,6 +11,12 @@ function Navigation({ activeTab, onTabChange }) {
           Projects
         </button>
         <button 
+          className={`nav-tab ${activeTab === 'upcoming' ? 'active' : ''}`}
+          onClick={() => onTabChange('upcoming')}
+        >
+          Upcoming
+        </button>
+        <button 
           className={`nav-tab ${activeTab === 'archives' ? 'active' : ''}`}
           onClick={() => onTabChange('archives')}
         >

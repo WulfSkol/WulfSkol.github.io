@@ -7,15 +7,8 @@ function Archives() {
     {
       id: 1,
       title: 'Windows Depot',
-      description: 'Contains various books and resources from windows and more for coding, kernel internals, Sys internals and debugging, ect',
-      videoUrl: '/images/archive1.jpg',
-      downloadUrl: '#',
-    },
-    {
-      id: 2,
-      title: 'Archive Two',
-      description: 'Description of your second archive. Explain its contents and purpose.',
-      videoUrl: '/videos/archive2.mp4',
+      description: 'Contains various books and resources from windows and more for coding, kernel internals, Sys internals and debugging, ect. 78 Files, 6 Folders.',
+      videoUrl: '/images/Windows Interenal.jpg',
       downloadUrl: '#',
     },
   ])

@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Navigation from './components/Navigation'
 import Portfolio from './components/Portfolio'
 import Archives from './components/Archives'
+import Upcoming from './components/Upcoming'
 import './App.css'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="app">
       <Header />
       <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
-      {activeTab === 'projects' ? <Portfolio /> : <Archives />}
+      {activeTab === 'projects' ? <Portfolio /> : activeTab === 'archives' ? <Archives /> : <Upcoming />}
     </div>
   )
 }

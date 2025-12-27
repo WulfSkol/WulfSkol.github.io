@@ -8,7 +8,7 @@ function Portfolio() {
       id: 1,
       title: 'Disembodied WebsScrape',
       description: 'Originally build for butcher to scrape data from various websites to find assets, shaders, models, ect. Also can look into a archive file locally to easily find assets.',
-      videoUrl: '/videos/project1.mp4',
+      videoUrl: '/videos/Scrape.mov',
       downloadUrl: '#',
     },
     {
@@ -20,13 +20,6 @@ function Portfolio() {
     },
     {
       id: 3,
-      title: 'WSign',
-      description: 'A Program to sign files and binaries with a custom signature. This is a remake of Csign/DSign from Trusted Asia but meant for english Users with a simple but modern UI.',
-      videoUrl: '/videos/project3.mp4',
-      downloadUrl: '#',
-    },
-    {
-      id: 4,
       title: 'WSign',
       description: 'A Program to sign files and binaries with a custom signature. This is a remake of Csign/DSign from Trusted Asia but meant for english Users with a simple but modern UI.',
       videoUrl: '/videos/project3.mp4',
